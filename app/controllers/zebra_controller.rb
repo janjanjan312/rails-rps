@@ -1,4 +1,5 @@
 class ZebraController < ApplicationController
+  
   def giraffe
     @comp_move = ["rock","paper","scissors"].sample
 
@@ -32,7 +33,6 @@ class ZebraController < ApplicationController
 
 
   def lion
-
     @comp_move = ["rock","paper","scissors"].sample
 
     if @comp_move == "rock"
